@@ -1,0 +1,29 @@
+#!/bin/bash
+
+## ==========设置各参数（不需要的可以删掉或者前面加# ）==================
+# 设置固定隧道参数 (如果设置，注意把前面的# 去掉，如果不设置，默认启用临时隧道)
+ export TOK='cloudflared.exe service install eyJhIjoiYzEyNjA3gdjfZjI0YjU3yrtyZmVjMWE4M2ZiMDNzFiNTA2NjYiLCJ0IjoiNzg4NWZkYzgtMTNhNi00N2RhLThkOWEtYjZhMTY3Yzc2MGI2IiwicyI6IlptTXpNalkxT1dZdE5HRTVOeTAwWWpCaExUZ3pOVEV0TUdGa09USTBZVEpoTlRJdyJ9'
+ export ARGO_DOMAIN='your argo domain'
+
+#设置哪吒参数(NEZHA_TLS='1'开启tls,设置其他关闭tls)
+export NEZHA_SERVER='xxxx'
+export NEZHA_KEY='xxx'
+export NEZHA_PORT='443'
+export NEZHA_TLS='1'
+
+# 下面设置UUID和路径，CF_IP是优选IP，SUB_NAME为节点名称
+export UUID='d5214a80-rtyj-40bf-b3f4-aaed84f79078'
+export VPATH='vls'
+export CF_IP='cdn.xn--b6gac.eu.org'
+export SUB_NAME='bbn'
+#设置订阅上传地址
+export SUB_URL='xxx'
+
+# 设置启动玩具原程序，senver.jar 原启动文件改名
+# export JAR_SH='java -Xms128M -XX:MaxRAMPercentage=95.0 -jar senver.jar'
+# 默认启动原游戏后，不显示日志
+
+
+
+
+
